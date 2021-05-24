@@ -1,5 +1,7 @@
 package com.qa;
 
+import com.qa.Calculator.calculator;
+
 /**
  * Hello world!
  *
@@ -7,7 +9,9 @@ package com.qa;
 public class App 
 {
     public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+    {   
+        calculator calc = new calculator();
+        System.out.println(calc.Use(3,2,"+"));
+       
     }
 }
